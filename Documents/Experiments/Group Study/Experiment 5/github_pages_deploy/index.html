@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experiment 5</title>
+  <script src="jspsych/jspsych.js"></script>
+  <script src="jspsych/plugin-preload.js"></script>
+  <script src="jspsych/plugin-survey-html-form.js"></script>
+  <script src="jspsych/plugin-html-button-response.js"></script>
+  <script src="jspsych/plugin-pipe.js"></script>
+  <link rel="stylesheet" href="jspsych/jspsych.css" />
+  <style>
+    :root {
+      background: #f7f7f4;
+      color: #202124;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body,
+    .jspsych-display-element {
+      background: #f7f7f4;
+      margin: 0;
+    }
+
+    .jspsych-content {
+      max-width: min(1080px, calc(100vw - 32px));
+    }
+
+    .stage {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .slide-image,
+    .consent-image {
+      background: white;
+      box-shadow: 0 2px 18px rgba(0, 0, 0, .08);
+      height: auto;
+      width: min(1000px, 100%);
+    }
+
+    .consent-image {
+      width: min(820px, 100%);
+    }
+
+    .jspsych-btn {
+      background: white;
+      border: 1px solid #b8b8b8;
+      border-radius: 6px;
+      color: #202124;
+      cursor: pointer;
+      font-size: 20px;
+      margin: 8px 10px;
+      min-height: 52px;
+      min-width: 132px;
+    }
+
+    .jspsych-btn:hover {
+      background: #f1f1ef;
+      border-color: #686868;
+    }
+
+    .choice-basic,
+    .choice-one-feature {
+      border-color: #2f62b3;
+    }
+
+    .choice-subordinate,
+    .choice-two-features {
+      border-color: #b93a32;
+    }
+
+    .choice-zero-feature {
+      border-color: #777;
+    }
+
+    .id-entry {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      line-height: 1.4;
+    }
+
+    .id-entry input {
+      border: 1px solid #9c9c9c;
+      border-radius: 6px;
+      font-size: 18px;
+      min-height: 42px;
+      padding: 0 12px;
+      text-align: center;
+      width: min(420px, 80vw);
+    }
+
+    .completion-code {
+      background: white;
+      border: 1px solid #d8d2c4;
+      border-radius: 6px;
+      display: inline-block;
+      font-size: 32px;
+      letter-spacing: 0;
+      padding: 10px 16px;
+    }
+
+    .error-message {
+      background: white;
+      border: 1px solid #d8d2c4;
+      border-radius: 6px;
+      line-height: 1.5;
+      margin: 64px auto;
+      max-width: 760px;
+      padding: 24px;
+    }
+  </style>
+</head>
+<body>
+  <script src="experiment.js"></script>
+</body>
+</html>

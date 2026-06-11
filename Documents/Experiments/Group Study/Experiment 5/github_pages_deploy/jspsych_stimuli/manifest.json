@@ -1,0 +1,828 @@
+{
+  "experiment": "experiment_5_adult_online",
+  "generated_from": "Final PPTS/OneDrive_1_6-10-2026",
+  "counterbalanced_versions": 4,
+  "notes": [
+    "Slides 3-15 are exposure slides.",
+    "Slides 16-19 are the adult test slides: the three-option feature-choice trials.",
+    "Dog group-choice and later judgment slides are intentionally omitted from this adult web version."
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "source_pptx": "Ex. 5  V1 .pptx",
+      "basic_level_group": "red",
+      "subordinate_level_group": "blue",
+      "exposure_first_group": "blue",
+      "exposure_first_label_level": "subordinate",
+      "test_first_group": "red",
+      "test_first_label_level": "basic",
+      "exposure": [
+        {
+          "slide_number": 3,
+          "image": "version_01/exposure/slide_03.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 4,
+          "image": "version_01/exposure/slide_04.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 5,
+          "image": "version_01/exposure/slide_05.png",
+          "slide_group": "blue",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 6,
+          "image": "version_01/exposure/slide_06.png",
+          "slide_group": "red",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 7,
+          "image": "version_01/exposure/slide_07.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 8,
+          "image": "version_01/exposure/slide_08.png",
+          "slide_group": "blue",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 9,
+          "image": "version_01/exposure/slide_09.png",
+          "slide_group": "red",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 10,
+          "image": "version_01/exposure/slide_10.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 11,
+          "image": "version_01/exposure/slide_11.png",
+          "slide_group": "blue",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 12,
+          "image": "version_01/exposure/slide_12.png",
+          "slide_group": "red",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 13,
+          "image": "version_01/exposure/slide_13.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 14,
+          "image": "version_01/exposure/slide_14.png",
+          "slide_group": "blue",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 15,
+          "image": "version_01/exposure/slide_15.png",
+          "slide_group": "red",
+          "slide_label_level": "basic"
+        }
+      ],
+      "test": [
+        {
+          "slide_number": 16,
+          "test_trial_number": 1,
+          "test_type": "feature_choice",
+          "item": "glasses",
+          "image": "version_01/test/slide_16.png",
+          "target_group": "red",
+          "prompt_group": "red",
+          "target_label_level": "basic",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "0_feature",
+            "1_feature",
+            "2_features"
+          ],
+          "answer_levels": {
+            "A": "0_feature",
+            "B": "1_feature",
+            "C": "2_features"
+          },
+          "pragmatic_choice": "B",
+          "two_feature_choice": "C",
+          "zero_feature_choice": "A"
+        },
+        {
+          "slide_number": 17,
+          "test_trial_number": 2,
+          "test_type": "feature_choice",
+          "item": "tree",
+          "image": "version_01/test/slide_17.png",
+          "target_group": "blue",
+          "prompt_group": "blue",
+          "target_label_level": "subordinate",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "1_feature",
+            "2_features",
+            "0_feature"
+          ],
+          "answer_levels": {
+            "A": "1_feature",
+            "B": "2_features",
+            "C": "0_feature"
+          },
+          "pragmatic_choice": "A",
+          "two_feature_choice": "B",
+          "zero_feature_choice": "C"
+        },
+        {
+          "slide_number": 18,
+          "test_trial_number": 3,
+          "test_type": "feature_choice",
+          "item": "sauce",
+          "image": "version_01/test/slide_18.png",
+          "target_group": "red",
+          "prompt_group": "red",
+          "target_label_level": "basic",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "2_features",
+            "0_feature",
+            "1_feature"
+          ],
+          "answer_levels": {
+            "A": "2_features",
+            "B": "0_feature",
+            "C": "1_feature"
+          },
+          "pragmatic_choice": "C",
+          "two_feature_choice": "A",
+          "zero_feature_choice": "B"
+        },
+        {
+          "slide_number": 19,
+          "test_trial_number": 4,
+          "test_type": "feature_choice",
+          "item": "teddy",
+          "image": "version_01/test/slide_19.png",
+          "target_group": "blue",
+          "prompt_group": "blue",
+          "target_label_level": "subordinate",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "1_feature",
+            "2_features",
+            "0_feature"
+          ],
+          "answer_levels": {
+            "A": "1_feature",
+            "B": "2_features",
+            "C": "0_feature"
+          },
+          "pragmatic_choice": "A",
+          "two_feature_choice": "B",
+          "zero_feature_choice": "C"
+        }
+      ]
+    },
+    {
+      "version": 2,
+      "source_pptx": "Ex. 5  V2.pptx",
+      "basic_level_group": "blue",
+      "subordinate_level_group": "red",
+      "exposure_first_group": "blue",
+      "exposure_first_label_level": "basic",
+      "test_first_group": "red",
+      "test_first_label_level": "subordinate",
+      "exposure": [
+        {
+          "slide_number": 3,
+          "image": "version_02/exposure/slide_03.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 4,
+          "image": "version_02/exposure/slide_04.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 5,
+          "image": "version_02/exposure/slide_05.png",
+          "slide_group": "blue",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 6,
+          "image": "version_02/exposure/slide_06.png",
+          "slide_group": "red",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 7,
+          "image": "version_02/exposure/slide_07.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 8,
+          "image": "version_02/exposure/slide_08.png",
+          "slide_group": "blue",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 9,
+          "image": "version_02/exposure/slide_09.png",
+          "slide_group": "red",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 10,
+          "image": "version_02/exposure/slide_10.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 11,
+          "image": "version_02/exposure/slide_11.png",
+          "slide_group": "blue",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 12,
+          "image": "version_02/exposure/slide_12.png",
+          "slide_group": "red",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 13,
+          "image": "version_02/exposure/slide_13.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 14,
+          "image": "version_02/exposure/slide_14.png",
+          "slide_group": "blue",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 15,
+          "image": "version_02/exposure/slide_15.png",
+          "slide_group": "red",
+          "slide_label_level": "subordinate"
+        }
+      ],
+      "test": [
+        {
+          "slide_number": 16,
+          "test_trial_number": 1,
+          "test_type": "feature_choice",
+          "item": "glasses",
+          "image": "version_02/test/slide_16.png",
+          "target_group": "red",
+          "prompt_group": "red",
+          "target_label_level": "subordinate",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "1_feature",
+            "2_features",
+            "0_feature"
+          ],
+          "answer_levels": {
+            "A": "1_feature",
+            "B": "2_features",
+            "C": "0_feature"
+          },
+          "pragmatic_choice": "A",
+          "two_feature_choice": "B",
+          "zero_feature_choice": "C"
+        },
+        {
+          "slide_number": 17,
+          "test_trial_number": 2,
+          "test_type": "feature_choice",
+          "item": "tree",
+          "image": "version_02/test/slide_17.png",
+          "target_group": "blue",
+          "prompt_group": "blue",
+          "target_label_level": "basic",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "0_feature",
+            "1_feature",
+            "2_features"
+          ],
+          "answer_levels": {
+            "A": "0_feature",
+            "B": "1_feature",
+            "C": "2_features"
+          },
+          "pragmatic_choice": "B",
+          "two_feature_choice": "C",
+          "zero_feature_choice": "A"
+        },
+        {
+          "slide_number": 18,
+          "test_trial_number": 3,
+          "test_type": "feature_choice",
+          "item": "sauce",
+          "image": "version_02/test/slide_18.png",
+          "target_group": "red",
+          "prompt_group": "red",
+          "target_label_level": "subordinate",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "1_feature",
+            "0_feature",
+            "2_features"
+          ],
+          "answer_levels": {
+            "A": "1_feature",
+            "B": "0_feature",
+            "C": "2_features"
+          },
+          "pragmatic_choice": "A",
+          "two_feature_choice": "C",
+          "zero_feature_choice": "B"
+        },
+        {
+          "slide_number": 19,
+          "test_trial_number": 4,
+          "test_type": "feature_choice",
+          "item": "teddy",
+          "image": "version_02/test/slide_19.png",
+          "target_group": "blue",
+          "prompt_group": "blue",
+          "target_label_level": "basic",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "0_feature",
+            "2_features",
+            "1_feature"
+          ],
+          "answer_levels": {
+            "A": "0_feature",
+            "B": "2_features",
+            "C": "1_feature"
+          },
+          "pragmatic_choice": "C",
+          "two_feature_choice": "B",
+          "zero_feature_choice": "A"
+        }
+      ]
+    },
+    {
+      "version": 3,
+      "source_pptx": "Ex. 5 V3.pptx",
+      "basic_level_group": "red",
+      "subordinate_level_group": "blue",
+      "exposure_first_group": "blue",
+      "exposure_first_label_level": "subordinate",
+      "test_first_group": "blue",
+      "test_first_label_level": "subordinate",
+      "exposure": [
+        {
+          "slide_number": 3,
+          "image": "version_03/exposure/slide_03.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 4,
+          "image": "version_03/exposure/slide_04.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 5,
+          "image": "version_03/exposure/slide_05.png",
+          "slide_group": "blue",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 6,
+          "image": "version_03/exposure/slide_06.png",
+          "slide_group": "red",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 7,
+          "image": "version_03/exposure/slide_07.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 8,
+          "image": "version_03/exposure/slide_08.png",
+          "slide_group": "blue",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 9,
+          "image": "version_03/exposure/slide_09.png",
+          "slide_group": "red",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 10,
+          "image": "version_03/exposure/slide_10.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 11,
+          "image": "version_03/exposure/slide_11.png",
+          "slide_group": "blue",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 12,
+          "image": "version_03/exposure/slide_12.png",
+          "slide_group": "red",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 13,
+          "image": "version_03/exposure/slide_13.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 14,
+          "image": "version_03/exposure/slide_14.png",
+          "slide_group": "blue",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 15,
+          "image": "version_03/exposure/slide_15.png",
+          "slide_group": "red",
+          "slide_label_level": "basic"
+        }
+      ],
+      "test": [
+        {
+          "slide_number": 16,
+          "test_trial_number": 1,
+          "test_type": "feature_choice",
+          "item": "glasses",
+          "image": "version_03/test/slide_16.png",
+          "target_group": "blue",
+          "prompt_group": "blue",
+          "target_label_level": "subordinate",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "0_feature",
+            "2_features",
+            "1_feature"
+          ],
+          "answer_levels": {
+            "A": "0_feature",
+            "B": "2_features",
+            "C": "1_feature"
+          },
+          "pragmatic_choice": "C",
+          "two_feature_choice": "B",
+          "zero_feature_choice": "A"
+        },
+        {
+          "slide_number": 17,
+          "test_trial_number": 2,
+          "test_type": "feature_choice",
+          "item": "tree",
+          "image": "version_03/test/slide_17.png",
+          "target_group": "red",
+          "prompt_group": "red",
+          "target_label_level": "basic",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "2_features",
+            "0_feature",
+            "1_feature"
+          ],
+          "answer_levels": {
+            "A": "2_features",
+            "B": "0_feature",
+            "C": "1_feature"
+          },
+          "pragmatic_choice": "C",
+          "two_feature_choice": "A",
+          "zero_feature_choice": "B"
+        },
+        {
+          "slide_number": 18,
+          "test_trial_number": 3,
+          "test_type": "feature_choice",
+          "item": "sauce",
+          "image": "version_03/test/slide_18.png",
+          "target_group": "blue",
+          "prompt_group": "blue",
+          "target_label_level": "subordinate",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "0_feature",
+            "1_feature",
+            "2_features"
+          ],
+          "answer_levels": {
+            "A": "0_feature",
+            "B": "1_feature",
+            "C": "2_features"
+          },
+          "pragmatic_choice": "B",
+          "two_feature_choice": "C",
+          "zero_feature_choice": "A"
+        },
+        {
+          "slide_number": 19,
+          "test_trial_number": 4,
+          "test_type": "feature_choice",
+          "item": "teddy",
+          "image": "version_03/test/slide_19.png",
+          "target_group": "red",
+          "prompt_group": "red",
+          "target_label_level": "basic",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "1_feature",
+            "0_feature",
+            "2_features"
+          ],
+          "answer_levels": {
+            "A": "1_feature",
+            "B": "0_feature",
+            "C": "2_features"
+          },
+          "pragmatic_choice": "A",
+          "two_feature_choice": "C",
+          "zero_feature_choice": "B"
+        }
+      ]
+    },
+    {
+      "version": 4,
+      "source_pptx": "Ex. 5 V4.pptx",
+      "basic_level_group": "blue",
+      "subordinate_level_group": "red",
+      "exposure_first_group": "blue",
+      "exposure_first_label_level": "basic",
+      "test_first_group": "blue",
+      "test_first_label_level": "basic",
+      "exposure": [
+        {
+          "slide_number": 3,
+          "image": "version_04/exposure/slide_03.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 4,
+          "image": "version_04/exposure/slide_04.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 5,
+          "image": "version_04/exposure/slide_05.png",
+          "slide_group": "blue",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 6,
+          "image": "version_04/exposure/slide_06.png",
+          "slide_group": "red",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 7,
+          "image": "version_04/exposure/slide_07.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 8,
+          "image": "version_04/exposure/slide_08.png",
+          "slide_group": "blue",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 9,
+          "image": "version_04/exposure/slide_09.png",
+          "slide_group": "red",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 10,
+          "image": "version_04/exposure/slide_10.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 11,
+          "image": "version_04/exposure/slide_11.png",
+          "slide_group": "blue",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 12,
+          "image": "version_04/exposure/slide_12.png",
+          "slide_group": "red",
+          "slide_label_level": "subordinate"
+        },
+        {
+          "slide_number": 13,
+          "image": "version_04/exposure/slide_13.png",
+          "slide_group": null,
+          "slide_label_level": null
+        },
+        {
+          "slide_number": 14,
+          "image": "version_04/exposure/slide_14.png",
+          "slide_group": "blue",
+          "slide_label_level": "basic"
+        },
+        {
+          "slide_number": 15,
+          "image": "version_04/exposure/slide_15.png",
+          "slide_group": "red",
+          "slide_label_level": "subordinate"
+        }
+      ],
+      "test": [
+        {
+          "slide_number": 16,
+          "test_trial_number": 1,
+          "test_type": "feature_choice",
+          "item": "glasses",
+          "image": "version_04/test/slide_16.png",
+          "target_group": "blue",
+          "prompt_group": "blue",
+          "target_label_level": "basic",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "2_features",
+            "0_feature",
+            "1_feature"
+          ],
+          "answer_levels": {
+            "A": "2_features",
+            "B": "0_feature",
+            "C": "1_feature"
+          },
+          "pragmatic_choice": "C",
+          "two_feature_choice": "A",
+          "zero_feature_choice": "B"
+        },
+        {
+          "slide_number": 17,
+          "test_trial_number": 2,
+          "test_type": "feature_choice",
+          "item": "tree",
+          "image": "version_04/test/slide_17.png",
+          "target_group": "red",
+          "prompt_group": "red",
+          "target_label_level": "subordinate",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "0_feature",
+            "2_features",
+            "1_feature"
+          ],
+          "answer_levels": {
+            "A": "0_feature",
+            "B": "2_features",
+            "C": "1_feature"
+          },
+          "pragmatic_choice": "C",
+          "two_feature_choice": "B",
+          "zero_feature_choice": "A"
+        },
+        {
+          "slide_number": 18,
+          "test_trial_number": 3,
+          "test_type": "feature_choice",
+          "item": "sauce",
+          "image": "version_04/test/slide_18.png",
+          "target_group": "blue",
+          "prompt_group": "blue",
+          "target_label_level": "basic",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "1_feature",
+            "2_features",
+            "0_feature"
+          ],
+          "answer_levels": {
+            "A": "1_feature",
+            "B": "2_features",
+            "C": "0_feature"
+          },
+          "pragmatic_choice": "A",
+          "two_feature_choice": "B",
+          "zero_feature_choice": "C"
+        },
+        {
+          "slide_number": 19,
+          "test_trial_number": 4,
+          "test_type": "feature_choice",
+          "item": "teddy",
+          "image": "version_04/test/slide_19.png",
+          "target_group": "red",
+          "prompt_group": "red",
+          "target_label_level": "subordinate",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "choice_label_levels": [
+            "0_feature",
+            "1_feature",
+            "2_features"
+          ],
+          "answer_levels": {
+            "A": "0_feature",
+            "B": "1_feature",
+            "C": "2_features"
+          },
+          "pragmatic_choice": "B",
+          "two_feature_choice": "C",
+          "zero_feature_choice": "A"
+        }
+      ]
+    }
+  ]
+}
